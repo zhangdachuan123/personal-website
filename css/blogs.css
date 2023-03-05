@@ -1,0 +1,173 @@
+/* -------------------------------------------
+# 粒子特效
+---------------------------------------------*/
+#search {
+    position: relative;
+    height: 5.93rem;
+}
+
+#particles-js {
+    width: 100%;
+    height: 5.93rem;
+    background: #010e1e;
+    position: absolute;
+    top: 0;
+}
+
+#search .search-content {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.form-wrap {
+    margin-top: 1.02rem;
+}
+
+#search input {
+    width: 10.2rem;
+    height: 0.91rem;
+    background: #ffffff;
+    border-radius: 0.1rem 0rem 0rem 0.1rem;
+    border: none;
+    outline: none;
+    text-indent: 0.73rem;
+    /* 解决加焦点边框与搜索框对不齐的问题 */
+    box-sizing: border-box;
+}
+
+#search input:focus {
+    border: 1px solid #e46a2b;
+}
+
+#search button {
+    width: 1.76rem;
+    height: 0.91rem;
+    background: #FE6913;
+    border-radius: 0rem 0.1rem 0.1rem 0rem;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#search button:hover {
+    background: #a33f04;
+}
+
+#search button i {
+    color: #fff;
+    font-size: 0.51rem;
+}
+
+/* -------------------------------------------
+# 博客列表
+---------------------------------------------*/
+#blog {
+    color: #fff;
+}
+
+.page {
+    margin-top: 1.22rem;
+}
+
+#blog .article-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 0.73rem;
+}
+
+#blog article {
+    width: 380px;
+    margin-bottom: 0.8rem;
+    border-radius: 0.1rem;
+    background: #0e1a26;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+#blog article:nth-child(3n) {
+    margin-right: 0;
+}
+
+#blog article img {
+    width: 100%;
+}
+
+#blog .content-wrap {
+    padding: 0.26rem;
+}
+
+#blog h3 {
+    font-size: 0.18rem;
+    font-weight: 500;
+    margin-top: 0.3rem;
+    margin-bottom: 0.23rem;
+}
+
+#blog p {
+    font-size: 0.16rem;
+    margin-bottom: 0.3rem;
+    /* 单行文字省略号 */
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    /* 多行文字省略号 */
+    /* overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical; */
+}
+
+#blog .date {
+    font-size: 0.14rem;
+}
+
+#blog .date i {
+    font-size: 0.18rem;
+    margin-right: 0.15rem;
+}
+
+#blog .more {
+    border-radius: 0.03rem;
+    font-size: 0.12rem;
+    font-weight: 500;
+    padding: 0.11rem 0.07rem;
+    transition: 0.3s;
+    color: #fff;
+    border: 1px solid #e46a2b;
+}
+
+#blog .more i {
+    font-size: 0.13rem;
+    margin-left: 0.06rem;
+}
+
+#blog article:hover {
+    background: #fff;
+    transform: translateY(-0.24rem);
+}
+
+#blog article:hover .content-wrap {
+    background: #fff;
+    color: #000;
+}
+
+#blog article:hover .more {
+    background: #e46a2b;
+}
+
+/* -------------------------------------------
+ footer
+---------------------------------------------*/
+#bottom2 {
+    width: 19.2rem;
+    height: 0.96rem;
+    background: #010E1E;
+    font-size: 0.14rem;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 0.96rem;
+}

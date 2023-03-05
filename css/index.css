@@ -1,0 +1,191 @@
+/* -------------------------------------------
+# hero
+---------------------------------------------*/
+#hero {
+    background: url(../images/hero-bg.png) center;
+    background-size: cover;
+    /* content:包含 让图片完全在容器中展示出来，可能会有剩余的空间
+       cover:覆盖 图片完全覆盖容器，让容器一点露不出来
+    */
+    height: calc(100vh - 0.9rem);
+    /* vh:窗口的高度，100vh是窗口高度的100% */
+    color: #fff;
+}
+
+#hero .portrait {
+    width: 1.39rem;
+    margin-top: 1.99rem;
+    margin-left: 3.86rem;
+}
+
+#hero .slogan {
+    font-size: 0.5rem;
+    font-weight: 800;
+    margin-top: 0.58rem;
+    margin-left: 3.82rem;
+
+}
+
+#hero .slogan span {
+    color: rgba(243, 185, 66, 1);
+}
+
+#hero .about-me {
+    display: block;
+    font-size: 0.3rem;
+    text-align: center;
+    width: 1.89rem;
+    height: 0.72rem;
+    line-height: 0.72rem;
+    background: rgba(65, 146, 243, 1);
+    border-radius: 0.25rem 0.25rem 0.25rem 0rem;
+    margin-top: 0.61rem;
+    margin-left: 3.88rem;
+    transition: 0.3s;
+}
+
+#hero .about-me:hover {
+    background: rgba(65, 146, 243, 0.7);
+}
+
+/* -------------------------------------------
+ portfolio
+---------------------------------------------*/
+
+#portfolio .carousel {
+    overflow: hidden;
+    margin-top: 0.12rem;
+    position: relative;
+    height: 590px;
+}
+
+#portfolio .arrows {
+    text-align: right;
+    /* margin-bottom: 0.41rem; */
+    user-select: none;
+    /* 用户无法选中 */
+}
+
+#portfolio .arrows span {
+    display: inline-block;
+    width: 0.18rem;
+    height: 0.19rem;
+    background-size: contain;
+    margin-bottom: 0.42rem;
+    cursor: pointer;
+}
+
+#portfolio .arrows span.prev.invalid {
+    margin-right: 0.32rem;
+    background-image: url(../portfolioimgs/wz.png);
+}
+
+#portfolio .arrows span.prev {
+    margin-right: 0.32rem;
+    background-image: url(../portfolioimgs/gz.png);
+
+}
+
+#portfolio .arrows span.next.invalid {
+    background-image: url(../portfolioimgs/wy.png);
+}
+
+#portfolio .arrows span.next {
+    background-image: url(../portfolioimgs/gy.png);
+
+}
+
+#portfolio .imgs {
+    position: absolute;
+    left: 0;
+    transition: 0.8s;
+}
+
+#portfolio .imgs-wrap {
+    margin-right: 30px;
+    width: 380px;
+    flex-shrink: 0;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+#portfolio .imgs img {
+    width: 100%;
+    transition: 0.3s;
+}
+
+#portfolio .imgs-info {
+    background: rgba(34, 34, 34, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-indent: 30px;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+#portfolio .imgs-wrap:hover .imgs-info {
+    opacity: 1;
+}
+
+#portfolio .imgs-wrap:hover img {
+    transform: scale(1.2);
+    /* 缩放 */
+}
+
+#portfolio .imgs-info .imgs-links {
+    margin: 20px 0;
+}
+
+#portfolio .imgs-info i {
+    font-size: 30px;
+}
+
+#portfolio .imgs-info .imgs-links a:hover {
+    color: #FE6913;
+}
+
+
+.morees {
+    width: 1.3rem;
+    height: 0.48rem;
+    background: #4194F3;
+    border-radius: 0.1rem;
+    text-align: center;
+    line-height: 0.48rem;
+    position: absolute;
+    top: 13.9rem;
+    left: 8.93rem;
+}
+
+/* -------------------------------------------
+ blog
+---------------------------------------------*/
+#blog {
+    background: #010e1e;
+    position: relative;
+}
+
+/* -------------------------------------------
+ footer
+---------------------------------------------*/
+#bottom {
+    width: 19.2rem;
+    height: 0.96rem;
+    background: #151F2B;
+    font-size: 0.14rem;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 0.96rem;
+}

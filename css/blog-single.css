@@ -1,0 +1,338 @@
+/* -------------------------------------------
+# 背景
+---------------------------------------------*/
+#up-part {
+    background: url(../blog-single-img/img1.png) center;
+    height: calc(100vh - 0.9rem);
+    background-size: auto 5.93rem;
+}
+
+/* -------------------------------------------
+# 内容
+---------------------------------------------*/
+
+#center-part .content .nav {
+    color: aliceblue;
+    width: 12rem;
+    height: 0.92rem;
+    background: #010E1E;
+    margin: 0.41rem 3.6rem 0.38rem 3.6rem;
+    justify-content: space-between;
+}
+
+#center-part .content .nav p {
+    width: 2.55rem;
+    height: 0.27rem;
+    font-size: 0.28rem;
+    font-family: Source Han Sans CN;
+    font-weight: 500;
+    color: #4594FF;
+    line-height: 0.29rem;
+    margin: 0.31rem 7.28rem 0.34rem 0.35rem;
+}
+
+#center-part .content .nav span {
+    width: 1.46rem;
+    height: 0.16rem;
+    font-size: 0.16rem;
+    font-family: Adobe Heiti Std;
+    font-weight: normal;
+    color: #FFFFFF;
+    line-height: 0.29rem;
+    margin-top: 0.36rem;
+    margin-bottom: 0.38rem;
+    margin-right: 0.35rem;
+}
+
+#center-part .content .wenzi {
+    width: 11.16rem;
+    font-size: 0.16rem;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 0.42rem;
+    margin-left: 3.95rem;
+    margin-right: 4.09rem;
+}
+
+#center-part .content .tupian img {
+    width: 11.3rem;
+    height: 4.85rem;
+    margin-top: 0.39rem;
+    margin-left: 3.94rem;
+    margin-right: 3.96rem;
+
+}
+
+#center-part .content .shuju {
+    width: 9.4rem;
+    height: 3.53rem;
+    font-size: 0.16rem;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 0.42rem;
+    margin-left: 3.94rem;
+    margin-right: 5.86rem;
+    margin-top: 0.38rem;
+}
+
+#center-part .content .fenxiang {
+    color: #FFFFFF;
+    width: 12rem;
+    height: 0.92rem;
+    background: #010E1E;
+    margin: 0.37rem 3.6rem 0.35rem 3.6rem;
+}
+
+#center-part .content .fenxiang .biaoqian {
+    width: 30px;
+    height: 14px;
+    margin-top: 0.4rem;
+    margin-left: 0.35rem;
+    margin-right: 0.31rem;
+}
+
+#center-part .content .fenxiang .text {
+    width: 1.08rem;
+    height: 0.4rem;
+    background: #7ECEF4;
+    border-radius: 0.08rem;
+    font-size: 0.16rem;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 0.4rem;
+    text-align: center;
+    margin: 0.26rem 0.12rem 0.26rem 0;
+}
+
+#center-part .content .fenxiang .text1 {
+    width: 1.08rem;
+    height: 0.4rem;
+    background: #EB6877;
+    border-radius: 0.08rem;
+    font-size: 0.16rem;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 0.4rem;
+    text-align: center;
+    margin: 0.26rem 0.12rem 0.26rem 0;
+}
+
+#center-part .content .fenxiang .text2 {
+    width: 1.08rem;
+    height: 0.4rem;
+    background: #89C997;
+    border-radius: 0.08rem;
+    font-size: 0.16rem;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 0.4rem;
+    text-align: center;
+    margin: 0.26rem 0.12rem 0.26rem 0;
+}
+
+#center-part .content .fenxiang .text3 {
+    width: 1.08rem;
+    height: 0.4rem;
+    background: #F39800;
+    border-radius: 0.08rem;
+    font-size: 0.16rem;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 0.4rem;
+    text-align: center;
+    margin: 0.26rem 2.48rem 0.26rem 0;
+}
+
+#center-part .content .fenxiang .dao {
+    font-size: 18px;
+    margin: 0.37rem 0;
+}
+
+#center-part .content .fenxiang img {
+    width: 0.4rem;
+    height: 0.4rem;
+    margin-top: 0.26rem;
+}
+
+#center-part .content .fenxiang .img {
+    margin-left: 0.36rem;
+    margin-right: 0.23rem;
+}
+
+#center-part .content .fenxiang .img1 {
+    margin-right: 0.23rem;
+}
+
+#center-part .content .fenxiang .img2 {
+    margin-right: 0.23rem;
+}
+
+/* -------------------------------------------
+# 评论
+---------------------------------------------*/
+#comment {
+    background: #010E1E;
+    display: flex;
+    justify-content: center;
+}
+
+#comment #comment-box {
+    width: 62.5%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+#comment #comment-box #comments {
+    background: #151F2B;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* margin-top: 20px; */
+}
+
+#comment #comment-box img {
+    width: 0.98rem;
+    height: 0.98rem;
+    margin-top: 0.39rem;
+    margin-left: 0.27rem;
+}
+
+#comment #comment-box span,
+p {
+    font-size: 0.18rem;
+    font-family: Source Han Sans CN;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+#comment #comment-box span {
+    line-height: 108.375px;
+}
+
+#comment #comment-box .between {
+    width: 90%;
+    justify-content: space-between;
+}
+
+#comment #comment-box .wrap {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+#comment #comment-box .btn1 {
+    width: 1.23rem;
+    height: 0.44rem;
+    background: #32B16C;
+    border-radius: 0.1rem;
+    font-size: 0.16rem;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin: 0 auto;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+
+#comment #comment-box .comments {
+    background: #151F2B;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#comment #comment-box p {
+    color: #fff;
+    margin-left: 0.15rem;
+    margin-top: 0.3rem;
+}
+
+#comment #comment-box input {
+    width: 5.57rem;
+    height: 0.6rem;
+    background: #010E1E;
+    border: 0;
+    /* position: absolute;
+    top: 0.96rem;
+    left: 0.67rem; */
+    margin-top: 10px;
+    margin-left: 20px;
+    text-indent: 2em;
+    color: #FFFFFF;
+    outline: none;
+}
+
+input::-webkit-input-placeholder {
+    font-size: 0.16rem;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+textarea::-webkit-input-placeholder {
+    font-size: 0.16rem;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+#comment #comment-box #comment-input {
+    width: 11.46rem;
+    height: 2.42rem;
+    background: #010E1E;
+    color: #fff;
+    text-indent: 2em;
+    line-height: 0.8rem;
+    margin-top: 20px;
+    outline: none;
+    margin-left: 20px;
+    border: 0;
+}
+
+#comment #comment-box .btn2 {
+    width: 1.23rem;
+    height: 0.44rem;
+    background: #00A0E9;
+    border-radius: 0.11rem;
+    font-size: 0.16rem;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-left: 9.72rem;
+    margin-bottom: 15px;
+    /* margin-top: 30px; */
+    cursor: pointer;
+}
+
+hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(225, 225, 225, 0.3);
+}
+
+/* -------------------------------------------
+ footer
+---------------------------------------------*/
+#bottom1 {
+    width: 19.2rem;
+    height: 0.96rem;
+    background: #151F2B;
+    font-size: 0.14rem;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 0.96rem;
+}

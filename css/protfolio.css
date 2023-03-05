@@ -1,0 +1,144 @@
+/* -------------------------------------------
+# 搜索区域
+---------------------------------------------*/
+#search {
+    position: relative;
+    height: 5.93rem;
+}
+
+#particles-js {
+    width: 100%;
+    height: 5.93rem;
+    background: #010e1e;
+    position: absolute;
+    top: 0;
+}
+
+#search .search-content {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.form-wrap {
+    margin-top: 1.02rem;
+}
+
+#search input {
+    width: 10.2rem;
+    height: 0.91rem;
+    background: #ffffff;
+    border-radius: 0.1rem 0.1rem 0.1rem 0.1rem;
+    border: none;
+    outline: none;
+    text-indent: 0.73rem;
+    /* 解决加焦点边框与搜索框对不齐的问题 */
+    box-sizing: border-box;
+}
+
+#search input:focus {
+    border: 1px solid #e46a2b;
+}
+
+/* -------------------------------------------
+# 瀑布流区域
+---------------------------------------------*/
+.type-tags {
+    display: flex;
+    justify-content: center;
+    margin: 0.8rem auto;
+}
+
+.type-tags li {
+    font-size: 0.18rem;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 0.18rem 0.5rem;
+    border-radius: 0.03rem;
+    margin-right: 0.33rem;
+}
+
+.type-tags li:nth-child(1) {
+    background: #6c6ce5;
+}
+
+.type-tags li:nth-child(2) {
+    background: #f9d74c;
+}
+
+.type-tags li:nth-child(3) {
+    background: #f97b8b;
+}
+
+.type-tags li:nth-child(4) {
+    background: #80c269;
+}
+
+.waterfall-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    /* 解决瀑布流循环找最小ul，一样高的问题 */
+}
+
+.waterfall-wrap ul {
+    width: 384px;
+}
+
+.waterfall-wrap ul li {
+    margin-bottom: 43px;
+    transition: 0.3s;
+    position: relative;
+}
+
+.waterfall-wrap ul li p {
+    margin: 30px 0;
+}
+
+.waterfall-wrap ul li .aa {
+    position: absolute;
+    top: 0;
+    left: 20px;
+    right: 0;
+    bottom: 20px;
+    opacity: 0;
+    transition: 0.3s;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.waterfall-wrap ul li .aa i {
+    font-size: 30px;
+}
+
+.waterfall-wrap ul li:hover .aa {
+    opacity: 1;
+}
+
+.waterfall-wrap ul li:hover {
+    opacity: 0.5;
+}
+
+.waterfall-wrap img {
+    width: 384px;
+
+}
+
+/* -------------------------------------------
+ footer
+---------------------------------------------*/
+#bottom3 {
+    width: 19.2rem;
+    height: 0.96rem;
+    background: #010E1E;
+    font-size: 0.14rem;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 0.96rem;
+}

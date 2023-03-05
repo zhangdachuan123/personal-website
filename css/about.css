@@ -1,0 +1,325 @@
+/* 介绍 */
+#include {
+    width: 19.2rem;
+    height: 8.52rem;
+    background: #010E1E;
+    position: relative;
+}
+
+#include .touxiang img {
+    width: 3.26rem;
+    height: 4.28rem;
+    margin-top: 0.97rem;
+    margin-left: 3.6rem;
+}
+
+#include .xinxi .zhiye {
+    width: 8.33rem;
+    height: 0.6rem;
+    background: #6C6CE5;
+    border-radius: 0.1rem;
+    text-align: center;
+    line-height: 0.6rem;
+    margin-top: 0.97rem;
+    margin-left: 0.41rem;
+    font-size: 20px;
+}
+
+#include .geren {
+    position: absolute;
+    top: 3.79rem;
+    left: 7.27rem;
+    flex-wrap: wrap;
+}
+
+#include .geren p {
+    width: 3.96rem;
+    height: 0.6rem;
+    border: 1px solid #626262;
+    border-radius: 0.1rem;
+    font-size: 0.18rem;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 0.6rem;
+    /* text-align: center; */
+    margin-top: 0.32rem;
+    text-indent: 2.5em;
+}
+
+#include .geren .youbianju {
+    margin-right: 0.42rem;
+}
+
+#include .geren .top {
+    margin-top: 0.08rem;
+}
+
+/*技能*/
+#skill {
+
+    height: 6.08rem;
+    position: relative;
+}
+
+#particles-js {
+    width: 100%;
+    height: 6.08rem;
+    background: #151F2B;
+    position: absolute;
+    top: 0;
+}
+
+#skill .people-skill {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#skill .p1 {
+    width: 0.46rem;
+    height: 0.15rem;
+    font-size: 0.18rem;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #FFFFFF;
+    position: absolute;
+    top: 2.82rem;
+    left: 3.6rem;
+}
+
+#skill .div1 {
+    width: 0;
+    background: rgb(100, 190, 241);
+    border-radius: 3px;
+    line-height: 0.14rem;
+    height: 0.14rem;
+    color: #fff;
+    position: absolute;
+    top: 3.14rem;
+    left: 3.6rem;
+}
+
+#skill .p2 {
+    width: 0.46rem;
+    height: 0.15rem;
+    font-size: 0.18rem;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #FFFFFF;
+    position: absolute;
+    top: 3.75rem;
+    left: 3.59rem;
+}
+
+#skill .div2 {
+    width: 0;
+    height: 0.14rem;
+    background: rgb(138, 100, 241);
+    line-height: 0.14rem;
+    border-radius: 3px;
+    color: #fff;
+    position: absolute;
+    top: 4.07rem;
+    left: 3.6rem;
+}
+
+#skill .p3 {
+    width: 0.46rem;
+    height: 0.15rem;
+    font-size: 0.18rem;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #FFFFFF;
+    position: absolute;
+    top: 4.68rem;
+    left: 3.59rem;
+}
+
+#skill .div3 {
+    width: 0;
+    height: 0.14rem;
+    background: rgb(241, 100, 105);
+    line-height: 0.14rem;
+    border-radius: 3px;
+    color: #fff;
+    position: absolute;
+    top: 5rem;
+    left: 3.6rem;
+}
+
+#skill .p4 {
+    width: 0.46rem;
+    height: 0.15rem;
+    font-size: 0.18rem;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #FFFFFF;
+    position: absolute;
+    top: 2.82rem;
+    left: 10.2rem;
+}
+
+#skill .div4 {
+    width: 0;
+    height: 0.14rem;
+    background: rgb(107, 241, 100);
+    line-height: 0.14rem;
+    color: #fff;
+    border-radius: 3px;
+    position: absolute;
+    top: 3.14rem;
+    left: 10.2rem;
+}
+
+#skill .p5 {
+    width: 0.46rem;
+    height: 0.15rem;
+    font-size: 0.18rem;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #FFFFFF;
+    position: absolute;
+    top: 3.74rem;
+    left: 10.2rem;
+}
+
+#skill .div5 {
+    width: 0;
+    height: 0.14rem;
+    background: rgb(100, 241, 236);
+    line-height: 0.14rem;
+    border-radius: 3px;
+    color: #fff;
+    position: absolute;
+    top: 4.07rem;
+    left: 10.2rem;
+}
+
+#skill .p6 {
+    width: 0.46rem;
+    height: 0.15rem;
+    font-size: 0.18rem;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #FFFFFF;
+    position: absolute;
+    top: 4.68rem;
+    left: 10.2rem;
+}
+
+#skill .div6 {
+    width: 0;
+    height: 0.14rem;
+    background: rgb(241, 100, 220);
+    line-height: 0.14rem;
+    border-radius: 3px;
+    color: #fff;
+    position: absolute;
+    top: 5rem;
+    left: 10.2rem;
+}
+
+
+
+/* 教育经历 */
+#eduction {
+    width: 19.2rem;
+    height: 24.21rem;
+    background: #010E1E;
+    padding-top: 0.94rem;
+}
+
+#eduction .edu {
+    font-size: 0.26rem;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #FFFFFF;
+    /* margin-top: 0.94rem; */
+    margin-left: 3.59rem;
+}
+
+#eduction .job {
+    font-size: 0.26rem;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-left: 3.59rem;
+    margin-top: 0.95rem;
+}
+
+#eduction .obj {
+    font-size: 0.26rem;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-left: 3.59rem;
+    margin-top: 0.95rem;
+}
+
+
+#eduction .xijie {
+    width: 11.58rem;
+    height: 2.34rem;
+    background: #151F2B;
+    border-radius: 0.1rem;
+    margin-top: 0.93rem;
+    margin-left: 4.02rem;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+#eduction .xijie .time {
+    width: 2.07rem;
+    height: 2.33rem;
+    background: #FF9B2F;
+    border-radius: 0.1rem;
+    font-size: 0.2rem;
+    font-family: Source Han Sans CN;
+    font-weight: bold;
+    color: #FFFFFF;
+    position: relative;
+}
+
+#eduction .xijie .time .p1 {
+    position: absolute;
+    top: 0.88rem;
+    left: 0.23rem;
+}
+
+#eduction .xijie .time .p2 {
+    position: absolute;
+    top: 1.27rem;
+    left: 0.23rem;
+}
+
+#eduction .xijie .zhuanye {
+    /* width: 3.08rem; */
+    height: 0.52rem;
+    background: #010E1E;
+    border-radius: 0.1rem;
+    font-size: 0.18rem;
+    font-family: Source Han Sans CN;
+    font-weight: 500;
+    color: rgba(255, 155, 47, 1);
+    line-height: 0.52rem;
+    padding: 0 0.12rem;
+    /* margin-top: 0.47rem;
+    margin-left: 0.33rem; */
+    position: absolute;
+    top: 0.47rem;
+    left: 2.4rem;
+}
+
+#eduction .xijie .sub {
+    width: 8.44rem;
+    height: 0.39rem;
+    font-size: 0.14rem;
+    font-family: Source Han Sans CN;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 0.24rem;
+    position: absolute;
+    top: 1.26rem;
+    left: 2.47rem;
+}
